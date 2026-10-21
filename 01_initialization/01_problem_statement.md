@@ -40,9 +40,10 @@ Your total bill is: $40.00
 You must:
 
 - Write your Python program in `03_execution/data_bill.py`. 
-- Use a nested `if` to distinguish moderate from high extra usage for customers who exceed the allowance.
 - Create and use a function that accepts data usage in GB and returns a Boolean value indicating whether it exceeds the 10 GB allowance. 
 - Use that returned value to decide whether the customer is within the allowance or needs overage processing.
+- Use a nested `if` to distinguish moderate from high extra usage for customers who exceed the allowance.
+
 
 ## Assumptions
 
