@@ -19,12 +19,15 @@ Check the usage message, overage amount when applicable, and total bill. Paste e
 
 **Evidence (paste your terminal run):**
 
-```text
-
-```
+how much data did you use?
+10
+how much does your plan cost?
+40
+You are within your data limit
+Your total bill is: 40.0
 
 **Pass / Fail and why:**
-
+pass - expected value
 ## Case 2: At 5 GB over the limit
 
 - Data used (GB): 15
@@ -34,12 +37,16 @@ Check the usage message, overage amount when applicable, and total bill. Paste e
 
 **Evidence (paste your terminal run):**
 
-```text
-
-```
+how much data did you use?
+15
+how much does your plan cost?
+40
+You are over your data limit
+Moderate extra usage
+Your total bill is: 50.0
 
 **Pass / Fail and why:**
-
+pass - expected value
 ## Case 3: Above 5 GB over the limit
 
 - Data used (GB): 15.5
@@ -49,10 +56,14 @@ Check the usage message, overage amount when applicable, and total bill. Paste e
 
 **Evidence (paste your terminal run):**
 
-```text
-
-```
+how much data did you use?
+15.5
+how much does your plan cost?
+50
+You are over your data limit
+High extra usage
+Your total bill is: 61.0
 
 **Pass / Fail and why:**
-
+pass - expected value
 If a case fails, fix the program and add evidence of the rerun below that case.
