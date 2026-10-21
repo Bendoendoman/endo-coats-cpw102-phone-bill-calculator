@@ -39,7 +39,21 @@ if(): function() = true
 ## Output
 
 *What will the program display for each usage category?*
+if usage under 10 gb
+print("You are within the data limit")
+print("Your total bill is: " + Cost of plan )
 
+if usage above 10 gb but less than 15 gb
+print("You are above your data limit")
+print("Moderate extra usage")
+print("Your total bill is: " + Cost of plan )
+
+if usage above 15 gb
+print("You are above your data limit")
+print("High extra usage")
+print("Your total bill is: " + Cost of plan )
+ 
+ 
 ## Function design
 
 *Give your data-allowance-checking function's name, parameters, and returned result. How will the program use that result?*
